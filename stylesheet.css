@@ -1,0 +1,192 @@
+/* TwitterのCSS */
+html {
+  height: inherit;
+  margin: 0px 0px;
+}
+
+body {
+  height: 100%;
+  margin: 0px 0px;
+
+}
+
+
+.container{
+  position: relative;
+  height: 100%;
+  margin: 0px 0px;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  text-align: inherit;
+}
+
+/* -------------------containerRight --------------------------*/
+
+.containerRight {
+  float: right;
+  width:  50%;
+  height:100px;
+}
+
+.containerRightHeader {
+  display: flex;
+  float: left;
+  width: 100%;
+  left: 0;
+  margin-top: 20px;
+  color: #14171a;
+  font-size: 14px;
+  justify-content: center;
+  max-width: 600px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.loginFormInput input {
+  width: 210px;
+  border: 1px solid #e6ecf0;
+  box-sizing: border-box;
+  padding: 12px;
+  margin-top: 12px;
+  line-height: 20px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.loginFormUserName {
+  margin-right: 12px;
+}
+
+.loginFormPassword {
+  margin-right: 12px;
+}
+
+.LoginForm-Forgot a {
+  color: #aab8c2;
+}
+
+.containerRightContent {
+  width: 500px;
+  height: 326px;
+  margin: 25%;
+}
+
+.signinHeader {
+  display: flex;
+  padding-top: 12px;
+  background-color: white;
+  color: #55acee;
+  border: solid 1px #55acee;
+  border-radius: 30px;
+  font-weight: bold;
+}
+
+.loginFormInput a {
+  padding: 12px;
+  margin-top: 12px;
+  line-height: 20px;
+}
+
+.bird {
+  width: 40px;
+  height: 40px;
+}
+
+.icon {
+  width: 40px;
+  height: 40px;
+}
+
+.containerRightContent h2 {
+  margin-top: 48px;
+}
+
+.btn {
+  padding: 8px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 20px;
+  text-align: center;
+  width: 350px;
+  cursor: pointer;
+}
+
+.signup {
+  background-color: #55acee;
+  color: white;
+}
+
+.signin {
+  background-color: white;
+  color: #55acee;
+  border: solid 1px #55acee;
+  margin-top: 16px;
+}
+/* -------------------containerLeft --------------------------*/
+
+.containerLeft {
+  float: left;
+  width: 50%;
+  height: 100%;
+  background-color: #55acee;
+  color: white;
+  margin: 0px 0px;
+}
+
+.containerLeftContent {
+  width:　500px;
+  height: 326px;
+  margin: 25% 15%;
+}
+
+.containerLeftContent {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.content {
+  margin: 48px auto;
+}
+
+/* -------------------footer --------------------------*/
+
+footer {
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  font-size: 12px;
+  color: #aab8c2;
+  background-color: #fff;
+  margin-top: 0px;
+}
+
+.footer a {
+  color: #aab8c2;
+}
+
+
+
+.footer {
+  display: block;
+  width: 100%;
+  font-size: 12px;
+  text-align: center;
+  border-top: solid 1px #e6ecf0;
+  z-index: 2;
+  margin-top: 0px;
+}
+
+.footer ul li {
+  display: inline; /* liの・を外す */
+  padding: 0 9px 0 9px;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
